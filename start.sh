@@ -4,8 +4,8 @@ if [ $1 == "auth" ]
 then
     echo "Start Gala Auth"
     docker run --name galaNode shayer91/galanode:2.3.2 config device
-    docker cp galaLocal:/opt/gala-headless-node/config.json ./config/config.json
-    docker rm galaLocal
+    docker cp galaNode:/opt/gala-headless-node/config.json ./config/config.json
+    docker rm galaNode
 fi
 
 if [ $1 == "node" ]
