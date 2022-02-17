@@ -24,9 +24,9 @@ Second Option is to use my Docker Image from the Docker Hub.
 
 `docker run --name galaNode shayer91/galanode:2.3.2 config device`
 
-`docker cp galaLocal:/opt/gala-headless-node/config.json ./config/config.json`
+`docker cp galaNode:/opt/gala-headless-node/config.json ./config/config.json`
 
-`docker rm galaLocal`
+`docker rm galaNode`
 
 ### Start the Container: ### 
 
