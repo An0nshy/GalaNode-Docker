@@ -1,0 +1,8 @@
+{
+    "tokenExpiration": 86400,
+    "workloads": [
+        "founders"
+    ],
+    "accessToken": "",
+    "refreshToken": ""
+}
