@@ -22,7 +22,7 @@ Second Option is to use my Docker Image from the Docker Hub.
 
 ### For Auth: ### 
 
-`docker run --name galaNode shayer91/galanode:2.3.2 config device`
+`docker run --name galaNode shayer91/galanode:2.3.9 config device`
 
 `docker cp galaNode:/opt/gala-headless-node/config.json ./config/config.json`
 
@@ -30,4 +30,4 @@ Second Option is to use my Docker Image from the Docker Hub.
 
 ### Start the Container: ### 
 
-`docker run -d --name galaNode -v $pwd/config/config.json:/opt/gala-headless-node/config.json shayer91/galanode:2.3.2 daemon`
+`docker run -d --name galaNode -v $PWD/config/config.json:/opt/gala-headless-node/config.json shayer91/galanode:2.3.9 daemon`
